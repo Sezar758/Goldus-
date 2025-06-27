@@ -1,77 +1,43 @@
-
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Goldus - متجر بيع وشراء الذهب المستعمل</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #fdfaf5;
-      color: #333;
-    }
-    nav {
-      background-color: #b58e3d;
-      padding: 1rem;
-      text-align: center;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 1rem;
-      font-weight: bold;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    section {
-      padding: 2rem;
-      max-width: 900px;
-      margin: auto;
-    }
-    h2 {
-      color: #b58e3d;
-      text-align: center;
-    }
-    html {
-      scroll-behavior: smooth;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Goldus - بيع وشراء الذهب المستعمل</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <nav>
-    <a href="#home">الرئيسية</a>
-    <a href="#products">المنتجات</a>
-    <a href="#sell-gold">بيع الذهب</a>
+    <ul>
+      <li><a href="#home">الرئيسية</a></li>
+      <li><a href="#products">المنتجات</a></li>
+      <li><a href="#sell-gold">بيع الذهب</a></li>
+    </ul>
   </nav>
 
-  <section id="home">
-    <h2>مرحبًا بك في Goldus</h2>
-    <p style="text-align: center;">منصة لبيع وشراء الذهب المستعمل بسهولة وأمان</p>
-  </section>
+  <header id="home">
+    <h1>مرحبًا بك في Goldus</h1>
+    <p>منصة آمنة وموثوقة لبيع وشراء الذهب المستعمل</p>
+  </header>
 
   <section id="products">
-    <h2>الذهب المعروض</h2>
-    <p style="text-align: center;">(سيتم عرض المنتجات هنا قريبًا...)</p>
+    <h2>منتجاتنا</h2>
+    <div id="product-list">
+      <p style="text-align: center;">(سيتم عرض المنتجات هنا قريبًا...)</p>
+    </div>
   </section>
 
   <section id="sell-gold">
-    <h2>إعلان بيع ذهبك عبر Goldus</h2>
+    <h2>بيع الذهب</h2>
     <p style="text-align: center;">املأ النموذج التالي ليتم نشر إعلانك مباشرة في الموقع.</p>
-    <iframe 
-      src="https://docs.google.com/forms/d/e/1FAIpQLSdCthRQUkQ9DTNLSoyHhPLNlxygQb-NHIHNUnKPlWaOzKHvEw/viewform?embedded=true" 
-      width="100%" 
-      height="900" 
-      frameborder="0" 
-      marginheight="0" 
-      marginwidth="0">
-      جارٍ التحميل...
-    </iframe>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdCthRQUkQ9DTNLSoyHhPLNlxygQb-NHIHNUnKPlWaOzKHvEw/viewform?embedded=true"
+      width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">جارٍ التحميل…</iframe>
   </section>
+
+  <footer>
+    <p>جميع الحقوق محفوظة &copy; Goldus 2025</p>
+  </footer>
 
 </body>
 </html>
