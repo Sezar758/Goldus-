@@ -7,37 +7,27 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-  <nav>
-    <ul>
-      <li><a href="#home">الرئيسية</a></li>
-      <li><a href="#products">المنتجات</a></li>
-      <li><a href="#sell-gold">بيع الذهب</a></li>
-    </ul>
-  </nav>
-
-  <header id="home">
-    <h1>مرحبًا بك في Goldus</h1>
-    <p>منصة آمنة وموثوقة لبيع وشراء الذهب المستعمل</p>
+  <header>
+    <img src="logo.png" alt="Goldus Logo" class="logo" />
+    <h1>منصة Goldus لبيع وشراء الذهب المستعمل</h1>
+    <button onclick="login()">تسجيل الدخول</button>
   </header>
 
-  <section id="products">
-    <h2>منتجاتنا</h2>
-    <div id="product-list">
-      <p style="text-align: center;">(سيتم عرض المنتجات هنا قريبًا...)</p>
-    </div>
-  </section>
+  <main>
+    <section class="hero">
+      <h2>تسوق الذهب بأمان وسرعة</h2>
+      <button onclick="getStarted()">ابدأ الآن</button>
+    </section>
 
-  <section id="sell-gold">
-    <h2>بيع الذهب</h2>
-    <p style="text-align: center;">املأ النموذج التالي ليتم نشر إعلانك مباشرة في الموقع.</p>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdCthRQUkQ9DTNLSoyHhPLNlxygQb-NHIHNUnKPlWaOzKHvEw/viewform?embedded=true"
-      width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">جارٍ التحميل…</iframe>
-  </section>
+    <section id="products" class="products">
+      <!-- المنتجات ستُعرض هنا -->
+    </section>
+  </main>
 
   <footer>
-    <p>جميع الحقوق محفوظة &copy; Goldus 2025</p>
+    <p>جميع الحقوق محفوظة © Goldus 2025</p>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
